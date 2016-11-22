@@ -7,7 +7,7 @@ const homeRoute = require('./routes/home_route');
 //const showRoute = require('./routes/show_route');
 
 const app = express();
-const port = process.env.API_PORT || 3000;
+const port = process.env.PORT || 3000;
 
 // # // This tests to see if we have NODE_ENV in our environment.
 // # // Only load the dotenv if we need it.
